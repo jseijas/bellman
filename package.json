@@ -1,0 +1,25 @@
+{
+  "name": "hotelbot",
+  "version": "1.0.0",
+  "description": "Demo of an hotel reservation bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "pretest": "jshint .",
+    "posttest": "nsp check"
+  },
+  "author": "Jesús Seijas",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.2.3",
+    "express": "^4.14.0",
+    "lodash": "^4.16.4",
+    "node-uuid": "^1.4.7",
+    "qr-image": "^3.1.0",
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "nsp": "^2.6.2"
+  }
+}
